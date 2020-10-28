@@ -1,0 +1,25 @@
+#%Module1.0
+#INSTALLATION instructions can be found here https://gitlab.psc.edu/icaoberg/singularity-hisat2
+
+## "URL: https://www.psc.edu/resources/software"
+## "Category: Bioinformatics"
+
+ proc ModulesHelp { } {
+ global dotversion
+ puts stderr "hisat2 2.2.1 (hisat2)"
+ puts stderr "---------------------"
+ puts stderr "\nTo enable, first load the following required modules (via module load command): "
+ puts stderr "\n\tmodule load hisat2/2.2.1"
+ puts stderr "\nFor a full list of binaries included in this module, type"
+ puts stderr "\n\tmodule what-is hisat2/2.2.1"
+ }
+
+module-whatis "hisat2 2.2.1 (hisat2)
+
+  Tools included in this module are
+
+  * hisat2"
+
+set HISAT2_HOME /opt/packages/hisat2/2.2.1
+setenv HISAT2_HOME ${HISAT2_HOME}
+prepend-path PATH ${HISAT2_HOME}
