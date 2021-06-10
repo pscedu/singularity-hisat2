@@ -1,5 +1,5 @@
 # singularity-tiger
-Singularity recipe for [TIGER](https://github.com/sandialabs/TIGER).
+Singularity recipe for [hisat2](https://daehwankimlab.github.io/hisat2/).
 
 ## Installing the container on Bridges 2
 Copy the
