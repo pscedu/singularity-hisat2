@@ -42,6 +42,8 @@ https://daehwankimlab.github.io/hisat2/
 Tools included in this module are
 
 * hisat2
+* hisat2-build
+* hisat2-inspect
 ]])
 
 local package = "hisat2"
