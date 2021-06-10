@@ -1,32 +1,33 @@
-# README
-## About
-Source code repository can be found [here](http://daehwankimlab.github.io/hisat2/).
+# singularity-tiger
+Singularity recipe for [TIGER](https://github.com/sandialabs/TIGER).
 
-## Building the container for Bridges (or similar)
-There is no need to build a container, because an image is already available from the Galaxy project, hence all you need to do is run
-
-```
-bash ./pull.sh
-```
-
-## Installing the container on Bridges (or similar)
+## Installing the container on Bridges 2
 Copy the
 
 * `SIF` file
-* and the `hisat2` script
+* and the scripts `hisat2*`
 
 to `/opt/packages/hisat2/2.2.1`.
 
-Copy the file `modulefile` to `/opt/modulefiles/hisat2` as `2.2.1`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/hisat2` as `2.2.1.lua`.
 
-## Test
-To run the available tests, run the command
+## Building the image using the recipe
+### To build the image locally
+Run the script `build.sh` to build image locally.
 
 ```
-bash ./test.sh
+bash ./build.sh
+```
+
+### To build the image remotely
+Run the script `rbuild.sh` to build image locally.
+
+```
+bash ./rbuild.sh
 ```
 
 ---
-[![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
+Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
-[icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
+The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
+Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
