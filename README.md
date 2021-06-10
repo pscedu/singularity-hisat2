@@ -17,7 +17,7 @@ Copy the
 
 to `/opt/packages/hisat2/2.2.1`.
 
-Copy the file `modulefile` to `/opt/modules/hisat2` as `2.2.1`.
+Copy the file `modulefile` to `/opt/modulefiles/hisat2` as `2.2.1`.
 
 ## Test
 To run the available tests, run the command
