@@ -17,7 +17,7 @@ to `/opt/packages/hisat2/2.2.1`.
 
 Copy the file `modulefile.lua` to `/opt/modulefiles/hisat2` as `2.2.1.lua`.
 
-## Building the image using the recipe
+## Building the image using the Singularity definition file
 ### To build the image locally
 Run the script `build.sh` to build image locally.
 
@@ -26,7 +26,7 @@ bash ./build.sh
 ```
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image locally.
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
