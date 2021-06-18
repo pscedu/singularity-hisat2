@@ -1,4 +1,10 @@
-# singularity-tiger
+![Status](https://github.com/icaoberg/singularity-hisat2/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/icaoberg/singularity-hisat2)
+![forks](https://img.shields.io/github/forks/icaoberg/singularity-hisat2)
+![Stars](https://img.shields.io/github/stars/icaoberg/singularity-hisat2)
+![License](https://img.shields.io/github/license/icaoberg/singularity-hisat2)
+
+# singularity-hisat
 Singularity recipe for [hisat2](https://daehwankimlab.github.io/hisat2/).
 
 ## Installing the container on Bridges 2
@@ -27,7 +33,7 @@ bash ./rbuild.sh
 ```
 
 ---
-Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
 Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
