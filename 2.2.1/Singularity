@@ -6,8 +6,3 @@ From: quay.io/biocontainers/hisat2:2.2.1--he1b5a44_2
     EMAIL icaoberg@psc.edu
     WEBSITE https://gitlab.psc.edu/icaoberg/singularity-hisat2
     VERSION 2.2.1
-
-%post
-   rm /etc/resolv.conf
-
-####################################################################################
