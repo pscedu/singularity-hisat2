@@ -12,7 +12,7 @@ Singularity recipe for [hisat2](https://daehwankimlab.github.io/hisat2/).
 Copy the
 
 * `SIF` file
-* and the scripts `hisat2*`
+* and the scripts `hisat2`, `hisat2-build` and `hisat2-inspect` scripts
 
 to `/opt/packages/hisat2/2.2.1`.
 
