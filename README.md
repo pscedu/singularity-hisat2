@@ -1,4 +1,5 @@
 ![Status](https://github.com/icaoberg/singularity-hisat2/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/icaoberg/singularity-hisat2/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/icaoberg/singularity-hisat2)
 ![forks](https://img.shields.io/github/forks/icaoberg/singularity-hisat2)
 ![Stars](https://img.shields.io/github/stars/icaoberg/singularity-hisat2)
